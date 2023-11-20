@@ -1,0 +1,194 @@
+body{
+    padding:0;
+    margin:0;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Source Code Pro', monospace; */
+color:black;
+background:white;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+
+.small-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+  
+}
+.logo h1{
+    font-family: 'Playfair Display', serif;
+  
+}
+.logo a{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo img{
+    margin-right: 15px;
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+
+
+.logo h1{
+    font-size: 32px;
+    vertical-align: middle;
+}
+.nav-right{
+    display: inline;
+    padding: 12px;
+}
+
+.nav-right ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 5px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.introduction{
+    display: flex;
+}
+.introduction h1{
+    margin: auto;
+    margin-left: 0;
+    font-size: 45px;
+}
+
+.introduction img{
+    width: 45%;
+    border-radius: 50% ;
+    /* border: solid 10px #9381ff; */
+    box-shadow: 0 0 300px 2px #ffeedd;
+
+}
+span{
+    color: #1a659e;
+}
+hr{
+border: solid 4px #05668d;
+width: 100%;
+border-radius: 10%;
+}
+
+
+.heading{
+    text-align: center;
+    /* color: #03045e; */
+
+}
+.heading h1{
+    margin-bottom: 50px;
+}
+
+
+.skills{
+    margin-top:35px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+
+}
+
+.skills a img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex:1;
+}
+
+.project{
+    text-align: center;
+    width: 30%;
+}
+
+
+.projects img{
+    width: 250px;
+    height: 250px;
+    /* border-radius:% ; */
+    border: solid 2px #9381ff;
+    box-shadow: 10px 10px 0 0 #9381ff;
+
+}
+
+.footer{
+    margin-top: 25px;
+    background-color: black;
+    text-align: center;
+    color: pink;
+    padding: 25px 25px 25px 75px;
+    vertical-align: middle;
+}
+
+
+.footer h1{
+    font-size: 40px;
+}
+
+
+.footer .container{
+    margin-top: 0;
+    padding-top: 0;
+}
+.footer a{
+    color: white;
+    opacity: 0.4;
+    font-size: 25px;
+}
+
+
+
+
+@media(max-width:780px){
+    
+    .navbar .small-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo a{
+        display: block;
+        margin: auto;
+    }
+
+    .logo a img{
+        display: block;
+        margin: auto;       
+    }
+
+
+
+    .introduction{
+        flex-direction: column-reverse;
+        align-items: center;
+            text-align: center;
+    }
+
+    .introduction img{
+        margin-bottom:15px;
+    }
+}
