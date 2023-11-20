@@ -27,7 +27,7 @@ a{
   
 }
 .logo h1{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Source Code Pro', monospace;
   
 }
 .logo a{
@@ -58,7 +58,7 @@ a{
     display: inline;
     margin-right: 5px;
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .introduction{
@@ -78,7 +78,8 @@ a{
 
 }
 span{
-    color: #1a659e;
+    color:#7400b8;
+
 }
 hr{
 border: solid 4px #05668d;
@@ -160,8 +161,44 @@ border-radius: 10%;
     font-size: 25px;
 }
 
+.skills a img:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
 
+}
+.project:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 0.5s; 
+    
+}
+.heading:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+hr:hover{
+    border-color:red;
+    transition-duration: 0.2s;
+}
+span:hover
+{
+    color: #1a659e;
+    transition-duration: 0.2s;
+}
+ ul a:hover
+{
+    color: #1a659e;
+    transition-duration: 0.2s;
+}
+.introduction img:hover{
+    border-radius: 20%;
+    transition-duration: 0.5s;
+    transform: translateX(25px);
+    /* box-shadow: 0 0 300px 2px #1a659e; */
 
+    
+
+}
 
 @media(max-width:780px){
     
